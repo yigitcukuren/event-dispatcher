@@ -1,0 +1,25 @@
+{
+    "name": "yigitcukuren/event-dispatcher",
+    "type": "library",
+    "description": "Simple PSR-14 Event Dispatcher",
+    "keywords": [
+        "event",
+        "event dispatcher",
+        "psr-14"
+    ],
+    "authors": [
+        {
+            "name": "Yigit Cukuren",
+            "email": "yigitcukuren@jotform.com"
+        }
+    ],
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "YigitCukuren\\Events\\": "src/"
+        }
+    },
+    "require": {
+        "psr/event-dispatcher": "^1.0"
+    }
+}
