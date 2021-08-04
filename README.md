@@ -2,7 +2,7 @@
 
 Simple PSR-14 Event Dispatcher
 
-#Example Usage
+## Example Usage
 
 ```php
 use App\Events\AppOpened;
